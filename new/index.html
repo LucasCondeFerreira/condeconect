@@ -68,9 +68,9 @@
   <body>
     <!-- Header -->
     <header class="col-12 header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-          <div class="col-2">
+          <div class="col-2 d-block d-lg-none">
             <button
               class="navbar-toggler"
               type="button"
@@ -83,52 +83,29 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
-          <div class="col d-flex d-lg-none justify-content-center">
-            <div class="col-8 me-5 ms-2">
-              <a class="navbar-brand" href="#">
-                <img
-                  src="./assets/images/Logotipo_EmpórioNacional_SemFundo-07.png"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="d-none col-3 d-lg-flex justify-content-center">
-            <div class="ms-md-0 me-md-0 col-md-9">
-              <a class="navbar-brand" href="#">
-                <img
-                  src="./assets/images/logotipo_emporio_nacional_header.png"
-                  alt=""
-                  class="img-fluid"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="col collapse navbar-collapse" id="navbarNav">
+          <div class="col-md-12 d-flex justify-content-center collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav my-4 my-md-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link ps-3"
+                  aria-current="page"
+                  href="#portfolio"
+                  >Portfólio</a
+                >
+              </li>
               <li class="nav-item">
                 <a
                   class="nav-link ps-1 ps-md-0"
                   aria-current="page"
                   href="#sobre"
-                  >Sobre</a
-                >
+                  >Sobre</a>
               </li>
               <li class="nav-item">
                 <a
                   class="nav-link ps-1 ps-md-0"
                   aria-current="page"
-                  href="#negocios"
-                  >Negócios</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link ps-1 ps-md-0"
-                  aria-current="page"
-                  href="#localizacao"
-                  >Localização</a
+                  href="#orcamento"
+                  >Orçamento</a
                 >
               </li>
               <li class="nav-item">
@@ -167,7 +144,7 @@
     <!-- /Home -->
 
     <!-- Portfólio -->
-    <div class="portfolio separete px-3 px-md-5">
+    <div class="portfolio separete px-3 px-md-5" id="portfolio">
       <div class="container">
         <div class="col-md-12">
           <div
@@ -218,7 +195,7 @@
     <!-- /World -->
 
     <!-- Sobre -->
-    <div class="sobre separete col-md-12 d-flex justify-content-center px-3 px-md-5">
+    <div class="sobre separete col-md-12 d-flex justify-content-center px-3 px-md-5" id="sobre">
       <div class="row container d-flex align-items-center">
         <div class="col-2 my-3 my-3">
           <img src="./assets/images/Frame15.png" alt="" class="img-fluid" />
@@ -236,7 +213,7 @@
     <!-- /Sobre -->
 
     <!-- Orçamento -->
-    <div class="orcamento separete col-md-12 d-flex justify-content-center px-3 px-md-5">
+    <div class="orcamento separete col-md-12 d-flex justify-content-center px-3 px-md-5" id="orcamento">
       <div class="container row col-md-12">
         <div class="col-2 my-3 my-3">
           <img src="./assets/images/Frame16.png" alt="" class="img-fluid" />
@@ -331,7 +308,7 @@
     <!-- /Orçamento -->
 
     <!-- Formulário -->
-    <div class="form separete col-md-12 d-flex justify-content-center px-3 px-md-5">
+    <div class="form separete col-md-12 d-flex justify-content-center px-3 px-md-5" id="contato">
       <div class="container">
         <div class="col-md-12">
           <div class="col-md-8 ms-5 my-5">
@@ -361,6 +338,7 @@
                     id="nameInput"
                     placeholder="name"
                     name="nameInput"
+                    required="true"
                   />
                   <label for="nameInput"> Nome </label>
                 </div>
@@ -392,6 +370,7 @@
                     id="emailInput"
                     placeholder="email"
                     name="emailInput"
+                    required="true"
                   />
                   <label for="emailInput">E-mail</label>
                 </div>
@@ -402,7 +381,8 @@
                     id="floatingTextarea"
                     name="floatingTextarea"
                     style="height: 150px"
-                  ></textarea>
+                    required="true"
+                    ></textarea>
                   <label for="floatingTextarea">Mensagem</label>
                 </div>
   
@@ -428,15 +408,15 @@
       <div class="col-12 px-md-3 d-flex row justify-content-between">
         <div class="col-md-4">
           <img
-            src="./assets/images/logotipo_emporio_nacional_footer.png"
+            src="./assets/images/logocondeconecta.png"
             alt="#"
             class="img-fluid"
           />
         </div>
         <div class="col-md-4">
           <p class="text-end mt-3 mt-md-0">
-            Empório Nacional ® 2022 Todos os direitos reservados <br />CNPJ:
-            09.138.038/0001-08
+            Conde Conecta ® 2022 Todos os direitos reservados <br />CNPJ:
+            
           </p>
         </div>
       </div>

@@ -45,27 +45,25 @@ body {
 }
 
 @media (min-width: 1px) and (max-width: 762px) {
-
 }
 
 @media (min-width: 763px) and (max-width: 1023px) {
-
 }
 
 @media (min-width: 1024px) {
-
 }
 
 /*-------------------------------------
       Estilo dos elementos
   */
 
-
 /*------------------------
     Header
 */
 
-
+header.header {
+  background-color: #252525;
+}
 /*------------------------
     Home
 */
@@ -81,27 +79,44 @@ div.home > div.row {
   min-height: 100vh;
 }
 div.home > div > div > h1 {
-  color: #fcfcfc
+  color: #fcfcfc;
 }
 
 div.home > div > div > a.white {
-  border-color: #252525;
+  transition: 0.3s;
+  border-color: #555;
   background-color: #fcfcfc;
   width: 16rem;
   padding: 1rem;
+  color: #555;
 }
-div.home > div > div > a.white > span {
-  color: #252525
+div.home > div > div > a.white:hover,
+div.home > div > div > a.white:active {
+  transition: 0.4s;
+  border-color: #fcfcfc;
+  background-color: transparent;
+  width: 15rem;
+  padding: 1rem;
+  color: #fcfcfc;
 }
 div.home > div > div > a.black {
-  border-color: #252525;
+  transition: 0.3s;
+  border-color: #555;
   background-color: transparent;
   width: 14rem;
   padding: 1rem;
   margin-top: 1rem;
+  color: #555;
 }
-div.home > div > div > a.black > span {
-  color: #252525
+
+div.home > div > div > a.black:hover,
+div.home > div > div > a.black:active {
+  transition: 0.3s;
+  border-color: #fcfcfc;
+  background-color: #fcfcfc;
+  width: 16rem;
+  padding: 1rem;
+  margin-top: 1rem;
 }
 
 /*------------------------
@@ -119,13 +134,12 @@ div.portfolio > div > div.row {
   min-height: 100vh;
 }
 div.portfolio > div > div > div > h1 {
-  color: #fcfcfc
+  color: #fcfcfc;
 }
-div.portfolio > div > div > div > p { 
+div.portfolio > div > div > div > p {
 }
-div.portfolio > div > div > div > img { 
+div.portfolio > div > div > div > img {
 }
-
 
 /*------------------------
     World
@@ -141,11 +155,10 @@ div.world {
 div.world > div.row {
   min-height: 100vh;
 }
-div.world > div > div > p { 
+div.world > div > div > p {
 }
-div.world > div > div > img { 
+div.world > div > div > img {
 }
-
 
 /*------------------------
     Sobre
@@ -154,14 +167,14 @@ div.world > div > div > img {
 div.sobre {
   min-height: 100vh;
   background-image: url(../images/Frame3.png);
-  background-position: center left;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 div.sobre > div.row {
   min-height: 100vh;
 }
-div.sobre > div > div > p { 
+div.sobre > div > div > p {
 }
 
 /*------------------------
@@ -178,7 +191,7 @@ div.orcamento {
 div.orcamento > div > div.row {
   min-height: 100vh;
 }
-div.orcamento > div > div > div > p { 
+div.orcamento > div > div > div > p {
 }
 
 /*------------------------
@@ -187,27 +200,34 @@ div.orcamento > div > div > div > p {
 
 div.form {
   min-height: 100vh;
+  background-color: #252525;
   background-image: url(../images/Frame.png);
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
 }
-div.form > div > div > a:active, div.form > div > div > a {
+div.form > div > div > a:active,
+div.form > div > div > a {
   text-decoration: none;
   color: #f1f1f1;
 }
-div.form > div > div > a:hover{
+div.form > div > div > a:hover {
   color: #666;
 }
 
-div.form > div > div > div {}
-div.form > div > div > div > div {}
-div.form > div > div > div > div > ul {}
+div.form > div > div > div {
+}
+div.form > div > div > div > div {
+}
+div.form > div > div > div > div > ul {
+}
 div.form > div > div > div > div > ul > li {
   color: #fcfcfc;
 }
-div.form > div > div > div > div > form {}
-div.form > div > div > div > div > form > div {}
+div.form > div > div > div > div > form {
+}
+div.form > div > div > div > div > form > div {
+}
 div.form > div > div > div > div > form > div > input {
   background-color: transparent !important;
   color: #fcfcfc !important;
@@ -236,4 +256,18 @@ div.form > div > div > div > div > form > div > label {
 div.form > div > div > div > div > form > button {
   border: 2px solid #fcfcfc;
   background-color: transparent;
+}
+
+div.form > div > div > div > div > form > button:hover, div.form > div > div > div > div > form > button:active {
+  border: 2px solid #555;
+  background-color: #555;
+}
+
+
+/*------------------------
+      Formulário
+*/
+
+footer {
+  background-color: #555;
 }
