@@ -146,6 +146,7 @@ div.portfolio > div > div > div > img {
 */
 
 div.world {
+  margin-top: -10px;
   min-height: 100vh;
   background-image: url(../images/Frame.png);
   background-position: center left;
@@ -165,6 +166,7 @@ div.world > div > div > img {
 */
 
 div.sobre {
+  margin-top: -10px;
   min-height: 100vh;
   background-image: url(../images/Frame3.png);
   background-position: center center;
@@ -182,6 +184,7 @@ div.sobre > div > div > p {
 */
 
 div.orcamento {
+  margin-top: -10px;
   min-height: 100vh;
   background-image: url(../images/Frame.png);
   background-position: center left;
@@ -199,6 +202,7 @@ div.orcamento > div > div > div > p {
 */
 
 div.form {
+  margin-top: -10px;
   min-height: 100vh;
   background-color: #252525;
   background-image: url(../images/Frame.png);
