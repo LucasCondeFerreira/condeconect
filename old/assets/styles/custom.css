@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Made Tommy Bold";
+  src: url(../fonts/MADE_TOMMY_Bold.otf);
+}
+
+@font-face {
+  font-family: "Made Tommy Medium";
+  src: url(../fonts/MADE_TOMMY_Medium_USE.otf);
+}
+
+@font-face {
+  font-family: "Made Tommy Regular";
+  src: url(../fonts/MADE_TOMMY_Regular_USE.otf);
+}
+
+@font-face {
+  font-family: "Made Tommy Light";
+  src: url(../fonts/MADE_TOMMY_Light_use.otf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Made Tommy Regular";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Made Tommy Bold";
+  padding: 0;
+  margin: 0;
+}
+.row {
+  max-width: 100vw;
+}
+
+.display-flex {
+  display: flex !important;
+}
+.pink {
+  color: #ff037a;
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4.4rem !important;
+  }
+  h2 {
+    font-size: 3rem !important;
+  }
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  h4 {
+    font-size: 1.2rem !important;
+  }
+
+  h5 {
+    font-size: 1rem !important;
+  }
+
+  p {
+    font-size: 1.2rem !important;
+  }
+}
+@media (min-width: 1px) and (max-width: 1023px) {
+  h1 {
+    font-size: 32px !important;
+  }
+
+  h2 {
+    font-size: 1.8rem !important;
+  }
+
+  h3 {
+    font-size: 1.4rem !important;
+  }
+
+  h4 {
+    font-size: 1.25rem !important;
+  }
+
+  h5 {
+    font-size: 0.8rem !important;
+  }
+
+  p {
+    font-size: 15px !important;
+  }
+}
+
+p {
+  font-family: "Made Tommy Regular";
+}
+
+span {
+  font-family: "Made Tommy Medium";
+}
+
+/**********************
+        Index
+*/
+
+/**********************
+        Página Web Design
+*/
+@media (min-width: 1px) and (max-width: 1023px) {
+}
+
+@media (min-width: 1024px) {
+}
