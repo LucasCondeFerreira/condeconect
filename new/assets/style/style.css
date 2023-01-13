@@ -82,42 +82,33 @@ div.home > div > div > h1 {
   color: #fcfcfc;
 }
 
-div.home > div > div > a.white {
-  transition: 0.3s;
-  border-color: #555;
-  background-color: #fcfcfc;
-  width: 16rem;
-  padding: 1rem;
-  color: #555;
+div.home > div > div > div {
+  border-color: #fcfcfc;
+  color: #fcfcfc;
 }
-div.home > div > div > a.white:hover,
-div.home > div > div > a.white:active {
-  transition: 0.4s;
+
+div.home > div > div > div > a {
+  transition: 0.3s;
   border-color: #fcfcfc;
   background-color: transparent;
-  width: 15rem;
+  width: 16rem;
   padding: 1rem;
   color: #fcfcfc;
 }
-div.home > div > div > a.black {
-  transition: 0.3s;
+div.home > div > div > div:hover :not(hover) {
+  transition: 0.4s;
   border-color: #555;
-  background-color: transparent;
-  width: 14rem;
-  padding: 1rem;
-  margin-top: 1rem;
-  color: #555;
+  color: #555;  
 }
 
-div.home > div > div > a.black:hover,
-div.home > div > div > a.black:active {
-  transition: 0.3s;
-  border-color: #fcfcfc;
-  background-color: #fcfcfc;
-  width: 16rem;
-  padding: 1rem;
-  margin-top: 1rem;
+div.home > div > div > div > a:hover {
+  background-color: transparent !important;
+  transform: scale(1.1);
+  transition: 0.4s;
+  border-color: #fff !important;
+  color: #fff !important;  
 }
+
 
 /*------------------------
     Portfólio
@@ -267,6 +258,27 @@ div.form > div > div > div > div > form > button:hover, div.form > div > div > d
   background-color: #555;
 }
 
+div.form > div > div > div > div > a.whatsapp {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 2px solid #fcfcfc;
+  color: #fcfcfc !important;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+div.form > div > div > div > div > a.whatsapp:hover,
+div.form > div > div > div > div > a.whatsapp:active {
+  border: 2px solid #67D449;
+  color: #67D449 !important;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+div.form > div > div > div > div > a.whatsapp > img {
+  width: 24px;
+}
 
 /*------------------------
       Formulário
